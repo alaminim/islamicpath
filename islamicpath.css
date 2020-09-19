@@ -1,0 +1,91 @@
+body,
+button,
+input,
+textarea{
+	color: black;
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 1.8;
+}
+body{
+	background-color: 
+	margin:;
+	font-family:sans-serif;
+	}
+	header,footer{
+		background-color: blue;
+		height: 100px;
+	}
+	h1{
+		color: red;
+		margin: 0;
+	}
+	.site-header{
+	display: flex;
+	flex-flow:column; 
+	background: linear-gradient(14deg, #0d47a1, #42a5f5);
+	color: #fff;
+	border-radius: 0px !important;
+	height: 250px;
+}
+.site-info{
+	flex-grow: 1
+}
+.site-title{
+	margin: 0
+	font-size:2em;
+	font-weight: 300;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+  }
+  .site-description{
+  	text-align: center;
+  	color:#F6D200;
+  	font-size: 1.2em;
+  	margin-top:-.8;
+  	font-style: italic;
+  }
+  .main-nav{
+  	padding: 1em 1em;
+  	color: blue;
+  	background-color:black; 
+  }
+  @media screen and (min-width: 1120px){
+  	.site-title{
+  		font-size: 4em;
+  	}
+.site-info{
+	flex-grow: 1;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+}
+.main-nav {
+	padding: 1em 1em;
+	color:white;
+	background-color: black;
+}
+@media screen and (min-width: 810px;){
+	.site-title{
+		font-size: 4em;
+	}
+}
+.main-nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.main-nav li a {
+	text-decoration: none;
+	color: white; 
+	font-size:1.1em;
+	font-weight: bold;
+	padding: 6em 1em;
+	display: block;
+	transition: all 5s ease;
+}
+.main-nav li a:hover {
+	background-color:blue;
+	color: white; 
+}

@@ -1,0 +1,68 @@
+.main-nav{
+	width: 100%;
+	background:#00ffff;
+	min-height: 30px;
+	position: fixed;
+	text-align:center;
+}
+.nav{
+	display: flex;
+	justify-content: space-around;
+	font-weight: 700;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+}
+.nav .name{
+	display: none;
+}
+.nav li{
+	padding: 5px 10px 10px 10px;
+}
+.nav{
+	column-gap: .5em;
+}
+.nav a{
+	transition: all.5s;
+}
+.nav a:hover{
+	color:red;
+
+}
+.nav .name{
+	display: block;
+	margin-right: auto;
+	color: red;
+}
+header{
+	text-align: center;
+	background-image:"myproject.com/hadith.jpg", no-repeat top center;
+	background-size: cover;
+	overflow: hidden;
+	padding-top: 60px;
+}
+header.profile-image:hover{
+	transform: scale(1.2) rotate(5deg);
+}
+h1{
+	border:10px;
+	font-weight:500;
+	font-family:serif;
+	color:#ff6347;
+	padding-top: -5px;
+}
+.flex{
+	display: row;
+	justify-content: space-between;
+
+}
+
+button{
+	background:#008800;
+	color-interpolation:sRGB; 
+}
+footer{
+	text-decoration: inherit;
+	text-orientation:initial;
+	text-align: center;
+}

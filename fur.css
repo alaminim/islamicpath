@@ -1,0 +1,50 @@
+.main-nav{
+	width: 100%;
+	background:burlywood;
+	min-height: 30px;
+	position: fixed;
+	text-align:center;
+}
+.nav{
+	display: flex;
+	justify-content: space-around;
+	font-weight: 700;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+}
+.nav .name{
+	display: none;
+}
+.nav li{
+	padding: 5px 10px 10px 10px;
+}
+.nav{
+	column-gap: .5em;
+}
+.nav a{
+	transition: all.5s;
+}
+.nav a:hover{
+	color: white
+
+}
+.nav .name{
+	display: block;
+	margin-right: auto;
+	color: red;
+}
+h3{
+	text-align: center;
+	color: blue;
+}
+h2{
+	color:black;
+	font-weight: bold;
+}
+.site-footer{
+    text-align: center;
+    background-color: burlywood;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}

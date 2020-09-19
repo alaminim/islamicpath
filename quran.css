@@ -1,0 +1,80 @@
+.main-nav{
+	width: 100%;
+	background:#00ffff;
+	min-height: 30px;
+	position: fixed;
+	text-align:center;
+}
+.nav{
+	display: flex;
+	justify-content: space-around;
+	font-weight: 700;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+}
+.nav .name{
+	display: none;
+}
+.nav li{
+	padding: 5px 10px 10px 10px;
+}
+.nav{
+	column-gap: .5em;
+}
+.nav a{
+	transition: all.5s;
+}
+.nav a:hover{
+	color: white
+
+}
+.nav .name{
+	display: block;
+	margin-right: auto;
+	color: red;
+}
+.flex-card{
+	background-color: #e2e2e2;
+	font-family:sans-serif;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+
+}
+.site-title{
+	background-color: #e2e2e2;
+	font-weight:300px;
+	text-align:center;
+	border-radius:5px;
+	padding-top: 50px;
+	color:blue;
+	font-family:fantasy;
+}
+h1{
+	font-weight: 50px;
+	color: green;
+	font-family: monospace;
+}
+p{
+	text-align: center;
+}
+li{
+	color: blue;
+}
+.site-footer{
+	align-items: center;
+	color: red;
+	border-radius: 5px;
+	justify-content:center;
+	background-color:#e2e2e2;
+}
+body{
+	background-image:url(myproject.com/Alquran.png);
+	display:table-cell;
+}
+h2{
+	font-size: 1.5em;
+	font-family: cursive;
+	color: teal;
+}

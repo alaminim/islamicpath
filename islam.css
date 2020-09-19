@@ -1,0 +1,133 @@
+*{
+	box-sizing: border-box;
+}
+.site-header{
+	display: flex;
+	flex-flow:column; 
+	background: linear-gradient(14deg, #0d47a1, #42a5f5);
+	color: #fff;
+	border-radius: 0px !important;
+	height: 300px;
+}
+.site-info{
+	flex-grow: 1;
+	font-size: 3em;
+	text-transform: uppercase;
+}
+h2{
+	font-size: 2em;
+	color: yellow;
+	font-style: italic;
+}
+.site-title{
+	margin: 0
+	font-size:2em;
+	font-weight: 300;
+	color: unset;
+  }
+
+}
+.flex-card{
+	text-align: center;
+	justify-content: center;
+
+}
+body{
+	margin: 8;
+	padding: 0;
+	text-align: center;
+	font-family: sans-serif;
+	color: #222;
+	background:none;
+}
+
+a {
+	text-decoration: none;
+	color: #0499ff;
+}
+a:hover{
+	color: #6633ff;
+}
+.main-nav{
+	width: 100%;
+	background: black;
+	min-height: 30px;
+	position: fixed;
+	text-align:center;
+}
+.nav{
+	display: flex;
+	justify-content: space-around;
+	font-weight: 700;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+}
+.nav .name{
+	display: none;
+}
+.nav li{
+	padding: 5px 10px 10px 10px;
+}
+.nav a{
+	transition: all.5s;
+}
+.nav a:hover{
+	color: white;
+}
+header{
+	text-align: center;
+	background-image:"myproject.com/image.jpg", no-repeat top center;
+	background-size: cover;
+	overflow: hidden;
+	padding-top: 60px;
+}
+header.profile-image:hover{
+	transform: scale(1.2) rotate(5deg);
+}
+.greatings {
+	background-color: #e2e2e2;
+	color: red;
+	padding: 10px;
+	border-radius: 5px;
+	display: table;
+	margin: 10px auto;
+}
+.nav .name{
+	display: block;
+	margin-right: auto;
+	color: white;
+}
+hr{
+	border-radius: 2px solid blue; 
+	margin-left:30em;
+	margin-right:30em;
+}
+main p{
+	padding-top: 50px;
+}
+/*
+footer{
+	font-size:1.3em;
+	max-width: 1200px;
+	margin: 40px auto;
+  }
+*/
+h3 {
+	color: red;
+	letter-spacing: 1px;
+ }
+footer{
+	border:2px ridge;
+	text-align: center;
+	border-radius: 5px;
+	margin-right:200px;
+	margin-left: 200px;
+	border-top: 10px;
+	border-bottom: 10px;
+	border-padding: 20px;
+	background-color:black;
+	font-size-adjust: .5em;
+  }
+
+}
